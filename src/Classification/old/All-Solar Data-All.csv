@@ -1,0 +1,821 @@
+Classifier,Count,Cycle,Split,Train Acc,Test Acc,F1 Score,Train Time (ms),clfs per ms,Confusion Matrix,Params
+KNN,Full,0,0,1.0,0.9910233393177738,5.947730738094068,51.60403251647949,142.80808210991088,"[[ 60   0   0   0   0   0]
+ [  0  78   3   0   0   0]
+ [  0   0 146   0   0   0]
+ [  0   0   0 100   1   0]
+ [  0   0   0   0  73   1]
+ [  0   0   0   0   0  95]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,1,1.0,0.9838420107719928,5.91546123931685,50.75502395629883,93.42606262940174,"[[ 60   0   0   0   0   0]
+ [  0  77   4   0   0   0]
+ [  0   2 143   1   0   0]
+ [  0   0   1 100   0   0]
+ [  0   0   0   0  74   0]
+ [  0   0   0   1   0  94]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,2,1.0,0.9802513464991023,5.8931375878547545,51.95298194885254,89.2778234768673,"[[ 60   0   0   0   0   0]
+ [  0  77   3   1   0   0]
+ [  0   0 144   2   0   0]
+ [  0   0   2  99   0   0]
+ [  0   0   0   0  72   2]
+ [  0   0   0   1   0  94]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,3,1.0,0.987410071942446,5.931263527035566,49.35758113861084,83.32103315253084,"[[ 60   0   0   0   0   0]
+ [  0  80   0   0   0   0]
+ [  0   3 141   2   0   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   0  72   2]
+ [  0   0   0   0   0  95]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,4,1.0,0.9765765765765766,5.871032992659356,76.80723667144775,88.5002949349951,"[[ 59   0   0   0   0   0]
+ [  0  77   2   1   0   0]
+ [  0   1 143   1   0   1]
+ [  0   1   3  97   0   0]
+ [  0   0   0   1  71   2]
+ [  0   0   0   0   0  95]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,5,1.0,0.9927797833935018,5.95508681266842,51.00502967834473,144.96663205356094,"[[ 59   0   0   0   0   0]
+ [  0  78   0   1   0   1]
+ [  0   0 146   0   0   0]
+ [  0   0   0 100   0   1]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   1  93]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,6,1.0,0.9873646209386282,5.930999652259367,53.600239753723145,86.23118119219117,"[[ 59   0   0   0   0   0]
+ [  0  78   2   0   0   0]
+ [  0   0 145   0   1   0]
+ [  0   0   2  98   1   0]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   1  93]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,7,1.0,0.9837251356238698,5.9094144971650575,75.90806484222412,94.38209481224287,"[[ 59   0   0   0   0   0]
+ [  0  76   3   1   0   0]
+ [  0   1 144   1   0   0]
+ [  0   0   1 100   0   0]
+ [  0   0   0   0  73   0]
+ [  0   0   0   0   2  92]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,8,1.0,0.9855072463768116,5.91464252434987,55.596327781677246,142.95120506251652,"[[ 59   0   0   0   0   0]
+ [  0  75   3   1   0   1]
+ [  0   1 144   0   0   0]
+ [  0   0   0 100   1   0]
+ [  0   0   0   0  73   0]
+ [  0   0   0   0   1  93]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,Full,0,9,1.0,0.9927404718693285,5.95894558237381,54.54814434051514,73.59203498495296,"[[ 59   0   0   0   0   0]
+ [  0  78   1   1   0   0]
+ [  0   0 144   1   0   0]
+ [  0   0   0  99   1   0]
+ [  0   0   0   0  73   0]
+ [  0   0   0   0   0  94]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+SVM,Full,0,0,1.0,0.9892280071813285,5.93433860271808,1235.915172100067,244.02778606386556,"[[ 60   0   0   0   0   0]
+ [  0  81   0   0   0   0]
+ [  0   1 144   0   1   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   4  91]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=5,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,1,1.0,0.9892280071813285,5.937063277090593,1219.8574244976044,277.6943845693031,"[[ 60   0   0   0   0   0]
+ [  0  79   1   1   0   0]
+ [  0   0 146   0   0   0]
+ [  0   0   1 100   0   0]
+ [  0   0   1   0  73   0]
+ [  0   0   0   0   2  93]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,2,0.9997995590298657,0.9946140035906643,5.971319540388099,1182.0528447628021,249.9000735051274,"[[ 60   0   0   0   0   0]
+ [  0  81   0   0   0   0]
+ [  0   0 145   1   0   0]
+ [  0   0   1 100   0   0]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   1  94]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=5,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,3,1.0,0.9946043165467626,5.966668280495899,1204.1492342948914,277.7426742241502,"[[ 60   0   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   0 146   0   0   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   1  73   0]
+ [  0   0   0   0   1  94]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,4,1.0,0.9891891891891892,5.937362436630658,1262.353241443634,270.291046532122,"[[ 58   1   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   1 144   1   0   0]
+ [  0   0   1 100   0   0]
+ [  0   0   0   0  73   1]
+ [  0   0   0   0   0  95]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=5,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,5,1.0,0.9981949458483754,5.990401242192187,1225.172609090805,175.4818304790095,"[[ 59   0   0   0   0   0]
+ [  0  80   0   0   0   0]
+ [  0   1 145   0   0   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   0  94]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=5,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,6,1.0,0.9873646209386282,5.92646769261442,1236.8383169174194,285.7957135595709,"[[ 59   0   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   1 145   0   0   0]
+ [  0   0   1  99   1   0]
+ [  0   0   0   1  72   1]
+ [  0   0   0   1   0  93]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,7,1.0,0.9873417721518988,5.925693885859802,1184.0990126132965,277.90596588020196,"[[ 59   0   0   0   0   0]
+ [  0  77   3   0   0   0]
+ [  0   1 145   0   0   0]
+ [  0   0   0 100   1   0]
+ [  0   0   0   1  72   0]
+ [  0   0   0   0   1  93]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,8,1.0,0.9927536231884058,5.960342875320528,1194.454562664032,277.9726912285227,"[[ 59   0   0   0   0   0]
+ [  0  78   2   0   0   0]
+ [  0   0 145   0   0   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   0  73   0]
+ [  0   0   0   2   0  92]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,Full,0,9,1.0,0.9963702359346642,5.979461197934326,1256.115347146988,270.51465491065346,"[[ 59   0   0   0   0   0]
+ [  0  80   0   0   0   0]
+ [  0   0 145   0   0   0]
+ [  0   0   1  99   0   0]
+ [  0   0   0   0  72   1]
+ [  0   0   0   0   0  94]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=5,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+RF,Full,0,0,1.0,0.9784560143626571,5.881584748008719,934.6128940582275,588.0228925289061,"[[ 59   1   0   0   0   0]
+ [  0  77   4   0   0   0]
+ [  0   3 142   0   1   0]
+ [  0   0   2  98   0   1]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   0  95]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,1,1.0,0.9784560143626571,5.871403654381872,1260.706377029419,624.7874911435403,"[[ 60   0   0   0   0   0]
+ [  1  78   2   0   0   0]
+ [  0   1 143   1   1   0]
+ [  0   0   0 100   1   0]
+ [  0   0   2   0  72   0]
+ [  0   0   0   0   3  92]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,2,1.0,0.9946140035906643,5.96965280643367,982.7732563018799,624.7874911435403,"[[ 60   0   0   0   0   0]
+ [  0  79   1   1   0   0]
+ [  0   1 145   0   0   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   0  95]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,3,1.0,0.987410071942446,5.926447444168482,991.2076950073242,624.9127241543929,"[[ 60   0   0   0   0   0]
+ [  0  80   0   0   0   0]
+ [  0   1 143   2   0   0]
+ [  0   0   0 100   1   0]
+ [  0   0   0   0  73   1]
+ [  0   0   0   0   2  93]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,4,1.0,0.9837837837837838,5.908854570106021,1111.1345529556274,555.5524338969201,"[[ 59   0   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   2 143   1   0   0]
+ [  0   0   1  99   0   1]
+ [  0   0   0   1  71   2]
+ [  0   0   0   0   0  95]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,5,1.0,0.9765342960288809,5.871507546803726,1089.125394821167,625.163190176098,"[[ 59   0   0   0   0   0]
+ [  0  78   2   0   0   0]
+ [  0   2 141   3   0   0]
+ [  0   0   2  98   1   0]
+ [  0   0   0   0  72   2]
+ [  0   0   0   0   1  93]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,6,1.0,0.9783393501805054,5.879192631764492,921.0378408432007,625.1445246880827,"[[ 59   0   0   0   0   0]
+ [  0  73   6   1   0   0]
+ [  0   0 146   0   0   0]
+ [  0   0   2  99   0   0]
+ [  0   0   0   0  73   1]
+ [  0   0   0   0   2  92]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,7,1.0,0.9855334538878843,5.9160593340531555,1264.6985530853271,909.4610617182196,"[[ 59   0   0   0   0   0]
+ [  0  78   2   0   0   0]
+ [  0   0 146   0   0   0]
+ [  0   0   2  98   1   0]
+ [  0   0   0   0  71   2]
+ [  0   0   0   0   1  93]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,8,1.0,0.9855072463768116,5.920879726902646,1069.2625761032104,1000.7813746680563,"[[ 58   0   1   0   0   0]
+ [  0  78   1   1   0   0]
+ [  0   0 143   2   0   0]
+ [  0   1   1  99   0   0]
+ [  0   0   0   0  73   0]
+ [  0   0   0   1   0  93]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,Full,0,9,1.0,0.9945553539019963,5.969853561602542,998.5943794250488,625.5202125034001,"[[ 59   0   0   0   0   0]
+ [  0  80   0   0   0   0]
+ [  0   1 144   0   0   0]
+ [  0   0   1  99   0   0]
+ [  0   0   0   0  73   0]
+ [  0   0   0   0   1  93]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+NN,Full,0,0,0.9977951493285228,0.9910233393177738,5.950122636445302,6630.427622795105,1998.6038822939108,"[[ 60   0   0   0   0   0]
+ [  0  80   1   0   0   0]
+ [  0   0 146   0   0   0]
+ [  0   0   2  99   0   0]
+ [  0   0   0   1  72   1]
+ [  0   0   0   0   0  95]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,1,0.9991982361194628,0.9874326750448833,5.928254913871337,6863.243675231934,1666.0336503990563,"[[ 60   0   0   0   0   0]
+ [  0  79   1   0   0   1]
+ [  0   0 145   1   0   0]
+ [  0   0   1 100   0   0]
+ [  0   0   1   0  73   0]
+ [  0   0   0   0   2  93]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,2,0.9983964722389257,0.9784560143626571,5.875302226834451,6594.243478775024,1666.1663069521132,"[[ 60   0   0   0   0   0]
+ [  0  77   1   3   0   0]
+ [  0   3 141   0   2   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   1  73   0]
+ [  0   0   0   1   1  93]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,3,0.9957915831663327,0.987410071942446,5.930231824201092,7010.3203773498535,1999.9595749270484,"[[ 60   0   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   1 144   1   0   0]
+ [  0   0   0 101   0   0]
+ [  0   0   0   0  73   1]
+ [  0   0   0   3   0  92]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,4,0.996794229613304,0.990990990990991,5.952006465379394,6875.57065486908,1998.8323551624453,"[[ 59   0   0   0   0   0]
+ [  0  80   0   0   0   0]
+ [  0   0 144   2   0   0]
+ [  0   0   1 100   0   0]
+ [  0   0   0   2  72   0]
+ [  0   0   0   0   0  95]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,5,0.9953926282051282,0.98014440433213,5.889228352548824,6925.328230857849,2001.1436069584818,"[[ 58   1   0   0   0   0]
+ [  0  78   1   1   0   0]
+ [  0   1 142   3   0   0]
+ [  0   0   2  99   0   0]
+ [  0   0   0   0  72   2]
+ [  0   0   0   0   0  94]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,6,0.9971955128205128,0.98014440433213,5.878189133922066,7973.330330848694,2500.0555889568964,"[[ 59   0   0   0   0   0]
+ [  1  77   2   0   0   0]
+ [  0   2 143   0   0   1]
+ [  0   0   0 101   0   0]
+ [  0   0   0   0  70   4]
+ [  0   0   0   0   1  93]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,7,0.9977969156819547,0.9837251356238698,5.904482500487811,6501.516056060791,1000.3420046718061,"[[ 59   0   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   0 146   0   0   0]
+ [  0   0   1  98   0   2]
+ [  0   0   0   0  71   2]
+ [  0   0   0   2   1  91]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,8,0.9983980776932319,0.9927536231884058,5.957503641207082,7423.102641105652,2000.2248059215478,"[[ 59   0   0   0   0   0]
+ [  0  77   1   1   0   1]
+ [  0   0 145   0   0   0]
+ [  0   0   0 100   0   1]
+ [  0   0   0   0  73   0]
+ [  0   0   0   0   0  94]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,Full,0,9,0.998998998998999,0.9945553539019963,5.967485401493456,7170.9219217300415,2000.6253315134425,"[[ 59   0   0   0   0   0]
+ [  0  80   0   0   0   0]
+ [  0   0 144   1   0   0]
+ [  0   0   0 100   0   0]
+ [  0   0   0   0  71   2]
+ [  0   0   0   0   0  94]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+KNN,10,0,0,1.0,0.9605026929982047,5.782657833600233,17.367053031921387,666.4559097141436,"[[ 60   0   0   0   0   0]
+ [  0  76   5   0   0   0]
+ [  1   1 138   4   0   2]
+ [  0   0   2  95   3   1]
+ [  0   0   0   0  72   2]
+ [  0   0   0   0   1  94]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,1,1.0,0.9551166965888689,5.737353395363854,16.66867733001709,666.4346843276783,"[[ 60   0   0   0   0   0]
+ [  0  72   9   0   0   0]
+ [  1   1 143   1   0   0]
+ [  0   0   1  98   1   1]
+ [  0   0   1   3  66   4]
+ [  0   1   0   0   1  93]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,2,1.0,0.9569120287253142,5.758865755653301,15.620636940002441,713.9819384811431,"[[ 59   0   0   1   0   0]
+ [  0  76   4   0   0   1]
+ [  0   1 141   3   1   0]
+ [  0   0   5  95   0   1]
+ [  0   0   1   0  71   2]
+ [  0   0   0   0   4  91]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,3,1.0,0.9622302158273381,5.783333750079351,16.768598556518555,666.568265142336,"[[ 60   0   0   0   0   0]
+ [  0  75   3   2   0   0]
+ [  0   2 141   2   1   0]
+ [  0   0   2  94   3   2]
+ [  0   0   0   0  72   2]
+ [  0   0   0   0   2  93]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,4,1.0,0.9657657657657658,5.803579366171506,15.570473670959473,666.7443151002793,"[[ 59   0   0   0   0   0]
+ [  0  74   4   2   0   0]
+ [  0   2 141   1   2   0]
+ [  0   0   0  98   2   1]
+ [  0   0   2   1  71   0]
+ [  0   1   0   1   0  93]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,5,1.0,0.9548736462093863,5.756268392397362,16.768598556518555,666.7292563114105,"[[ 59   0   0   0   0   0]
+ [  0  73   6   1   0   0]
+ [  0   0 143   3   0   0]
+ [  0   0   6  94   0   1]
+ [  0   0   1   0  69   4]
+ [  0   0   1   0   2  91]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,6,1.0,0.9602888086642599,5.779775727046555,26.600027084350586,357.22391903676134,"[[ 58   0   0   1   0   0]
+ [  0  76   4   0   0   0]
+ [  0   2 140   3   1   0]
+ [  0   0   3  97   1   0]
+ [  0   0   0   0  72   2]
+ [  0   0   2   0   3  89]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,7,1.0,0.9656419529837251,5.808767308098085,24.903154373168945,476.3912618289779,"[[ 59   0   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   1 140   3   0   2]
+ [  0   0   3  96   2   0]
+ [  0   0   0   1  70   2]
+ [  0   0   0   2   2  90]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,8,1.0,0.9637681159420289,5.8024283854447685,17.966175079345703,714.7462694670762,"[[ 58   0   1   0   0   0]
+ [  1  75   4   0   0   0]
+ [  1   3 138   1   0   2]
+ [  0   0   5  96   0   0]
+ [  0   0   0   2  71   0]
+ [  0   0   0   0   0  94]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+KNN,10,0,9,1.0,0.9473684210526315,5.699794548952217,18.615102767944336,417.00102462632054,"[[ 58   1   0   0   0   0]
+ [  0  75   5   0   0   0]
+ [  0   2 138   3   0   2]
+ [  0   1   2  93   1   3]
+ [  0   0   0   1  67   5]
+ [  0   0   1   0   2  91]]","KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='distance')"
+SVM,10,0,0,0.9847664862697936,0.9622980251346499,5.805421585609736,12337.75622844696,526.1335274513033,"[[ 60   0   0   0   0   0]
+ [  0  73   8   0   0   0]
+ [  0   3 137   5   1   0]
+ [  0   0   3  97   1   0]
+ [  0   0   0   0  74   0]
+ [  0   0   0   0   0  95]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,1,0.9841651633593906,0.9658886894075404,5.803750055419955,11700.178629159927,499.8180541227634,"[[ 58   2   0   0   0   0]
+ [  0  77   4   0   0   0]
+ [  0   1 143   1   1   0]
+ [  0   0   4  97   0   0]
+ [  0   0   1   0  72   1]
+ [  0   0   0   1   3  91]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,2,0.9843656043295249,0.9730700179533214,5.859388859432395,13948.525077104568,499.7583686538144,"[[ 60   0   0   0   0   0]
+ [  0  78   3   0   0   0]
+ [  0   3 140   3   0   0]
+ [  0   0   3  98   0   0]
+ [  0   0   0   2  72   0]
+ [  0   0   0   1   0  94]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,3,0.9841683366733467,0.9586330935251799,5.777793409148429,11690.22222161293,312.4470330918327,"[[ 60   0   0   0   0   0]
+ [  0  77   3   0   0   0]
+ [  0   1 141   3   1   0]
+ [  0   1   6  94   0   0]
+ [  0   0   3   2  69   0]
+ [  0   1   0   1   1  92]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,4,0.9851733119615308,0.9765765765765766,5.8640202596137785,12053.609216213224,344.8556292531435,"[[ 58   0   0   1   0   0]
+ [  0  75   4   1   0   0]
+ [  0   2 143   1   0   0]
+ [  0   0   0 100   1   0]
+ [  0   0   0   1  73   0]
+ [  0   0   0   1   1  93]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,5,0.9861778846153846,0.9711191335740073,5.843164082262506,13759.276688098907,322.6785471373226,"[[ 59   0   0   0   0   0]
+ [  0  77   3   0   0   0]
+ [  0   4 141   1   0   0]
+ [  0   0   4  96   1   0]
+ [  0   0   0   1  72   1]
+ [  0   0   0   0   1  93]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,6,0.9839743589743589,0.9693140794223827,5.8208823806738454,12738.661098480225,322.6735743600088,"[[ 59   0   0   0   0   0]
+ [  0  77   2   1   0   0]
+ [  0   3 141   1   1   0]
+ [  0   0   1 100   0   0]
+ [  0   0   0   3  70   1]
+ [  0   0   0   1   3  90]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,7,0.9841778489885841,0.969258589511754,5.832644486553912,11215.292620658875,526.5950833511353,"[[ 59   0   0   0   0   0]
+ [  0  76   4   0   0   0]
+ [  0   1 142   3   0   0]
+ [  0   2   3  96   0   0]
+ [  0   0   1   1  70   1]
+ [  0   0   0   0   1  93]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,8,0.9847817380857028,0.9528985507246377,5.744863724782608,12468.88741850853,526.6343383564925,"[[ 59   0   0   0   0   0]
+ [  1  76   2   1   0   0]
+ [  0   7 132   6   0   0]
+ [  0   1   3  97   0   0]
+ [  0   0   1   1  68   3]
+ [  0   0   0   0   0  94]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+SVM,10,0,9,0.9845845845845845,0.9745916515426497,5.853008764223434,13966.14219546318,333.6446495405633,"[[ 59   0   0   0   0   0]
+ [  0  79   1   0   0   0]
+ [  0   1 140   3   1   0]
+ [  0   0   0  98   2   0]
+ [  0   0   1   0  70   2]
+ [  0   0   0   1   2  91]]","SVC(C=1.0, cache_size=200, class_weight=None, coef0=10,
+  decision_function_shape='ovr', degree=5, gamma='auto', kernel='poly',
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False)"
+RF,10,0,0,0.9995991180597315,0.9533213644524237,5.751436924524984,598.0378150939941,624.7874911435403,"[[ 59   0   1   0   0   0]
+ [  0  74   6   1   0   0]
+ [  0   0 139   5   2   0]
+ [  0   0   5  96   0   0]
+ [  0   0   0   1  71   2]
+ [  0   0   1   1   1  92]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,1,0.9997995590298657,0.9551166965888689,5.748370145378289,473.56951236724854,908.8114072611583,"[[ 59   1   0   0   0   0]
+ [  0  77   4   0   0   0]
+ [  0   1 140   5   0   0]
+ [  0   0   4  96   1   0]
+ [  0   0   1   1  67   5]
+ [  0   0   1   0   1  93]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,2,0.9993986770895971,0.9443447037701975,5.683039654366211,619.5483446121216,588.0559423767287,"[[ 60   0   0   0   0   0]
+ [  0  73   8   0   0   0]
+ [  0   3 138   2   1   2]
+ [  0   1   1  95   1   3]
+ [  0   0   1   4  67   2]
+ [  0   0   0   0   2  93]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,3,0.9997995991983968,0.920863309352518,5.55110196819461,474.41749572753906,624.8567534670595,"[[ 59   1   0   0   0   0]
+ [  0  73   4   2   0   1]
+ [  0   1 140   5   0   0]
+ [  0   0  10  89   1   1]
+ [  0   0   1   4  64   5]
+ [  0   0   2   1   5  87]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,4,0.9997996393508315,0.9369369369369369,5.64635193043676,527.1193265914917,625.0379571652454,"[[ 58   0   1   0   0   0]
+ [  1  71   7   1   0   0]
+ [  0   3 142   1   0   0]
+ [  0   0   7  92   1   1]
+ [  0   0   1   2  65   6]
+ [  0   0   2   1   0  92]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,5,0.9995993589743589,0.9530685920577617,5.744080784437652,475.3661632537842,588.4095538874784,"[[ 59   0   0   0   0   0]
+ [  0  76   4   0   0   0]
+ [  0   3 138   5   0   0]
+ [  0   0   6  94   1   0]
+ [  0   0   0   1  69   4]
+ [  0   0   0   0   2  92]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,6,1.0,0.927797833935018,5.581635964060666,501.8669128417969,555.7079878355855,"[[ 56   0   1   2   0   0]
+ [  0  78   1   1   0   0]
+ [  1   2 134   6   1   2]
+ [  0   0   4  92   4   1]
+ [  0   0   2   5  63   4]
+ [  0   0   1   0   2  91]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,7,0.9995994392149009,0.9258589511754068,5.5819001938406085,717.1669244766235,625.2324188499055,"[[ 58   1   0   0   0   0]
+ [  0  71   8   1   0   0]
+ [  1   1 136   4   1   3]
+ [  0   1   5  91   3   1]
+ [  0   0   1   0  69   3]
+ [  0   0   1   0   6  87]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,8,1.0,0.9619565217391305,5.7838012489887545,480.3568124771118,1000.9248421561531,"[[ 58   1   0   0   0   0]
+ [  0  76   2   2   0   0]
+ [  0   1 138   4   0   2]
+ [  0   0   2  98   1   0]
+ [  0   0   1   0  70   2]
+ [  0   0   0   0   3  91]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+RF,10,0,9,0.9995995995995997,0.941923774954628,5.673081882677434,491.98591709136963,588.6639077699062,"[[ 59   0   0   0   0   0]
+ [  1  71   7   1   0   0]
+ [  0   2 137   4   1   1]
+ [  0   2   4  90   3   1]
+ [  0   0   0   0  71   2]
+ [  0   0   0   1   2  91]]","RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=30, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)"
+NN,10,0,0,0.9472840248546803,0.947935368043088,5.718043996653044,8520.313215255737,1998.6038822939108,"[[ 59   1   0   0   0   0]
+ [  0  76   5   0   0   0]
+ [  1   4 133   6   1   1]
+ [  0   0   4  96   0   1]
+ [  0   0   0   2  70   2]
+ [  0   0   0   1   0  94]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,1,0.9637201844056925,0.9515260323159784,5.736619083488597,9584.336137771606,2498.851522034757,"[[ 59   0   1   0   0   0]
+ [  0  77   3   1   0   0]
+ [  0   1 136   5   3   1]
+ [  0   0   4  94   0   3]
+ [  0   0   0   1  73   0]
+ [  0   0   0   0   4  91]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,2,0.9402685908999799,0.9030520646319569,5.462086256371894,9563.325023651123,1999.1767122972049,"[[ 59   0   1   0   0   0]
+ [  0  74   7   0   0   0]
+ [  0   5 128   9   3   1]
+ [  0   1   6  89   4   1]
+ [  0   0   3   0  66   5]
+ [  0   0   1   1   6  87]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,3,0.9523046092184368,0.9172661870503597,5.530183826599783,9128.882384300232,1999.3864111209366,"[[ 58   0   1   1   0   0]
+ [  0  72   8   0   0   0]
+ [  0   0 135   8   1   2]
+ [  0   1   3  97   0   0]
+ [  0   0   2   6  56  10]
+ [  0   0   0   1   2  92]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,4,0.9402925265477861,0.9423423423423424,5.678355421075486,9608.443522453308,1999.9781461365706,"[[ 59   0   0   0   0   0]
+ [  0  78   1   1   0   0]
+ [  0   1 138   3   1   3]
+ [  0   0   7  89   4   1]
+ [  0   0   2   0  65   7]
+ [  0   0   0   0   1  94]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,5,0.9427083333333334,0.9368231046931408,5.650102507161722,9292.128872871399,2000.187768399943,"[[ 59   0   0   0   0   0]
+ [  0  76   2   2   0   0]
+ [  1   3 134   7   0   1]
+ [  0   0   7  91   3   0]
+ [  0   0   0   3  69   2]
+ [  0   0   0   0   4  90]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,6,0.9513221153846154,0.9548736462093863,5.751976923559978,8818.459463119507,2500.0555889568964,"[[ 59   0   0   0   0   0]
+ [  0  78   2   0   0   0]
+ [  0   1 142   3   0   0]
+ [  0   1   6  89   3   2]
+ [  0   0   1   0  72   1]
+ [  0   0   1   0   4  89]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,7,0.9585419587422391,0.9439421338155516,5.665213642363339,8563.8827085495,1111.3436567256786,"[[ 58   1   0   0   0   0]
+ [  0  78   1   1   0   0]
+ [  0   2 142   1   0   1]
+ [  0   1   4  91   3   2]
+ [  0   0   1   4  64   4]
+ [  0   0   0   3   2  89]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,8,0.934721665999199,0.9202898550724637,5.571380055638401,9956.693959236145,1250.5286072092479,"[[ 58   0   1   0   0   0]
+ [  1  72   5   2   0   0]
+ [  0   2 127  13   2   1]
+ [  0   0   5  88   3   5]
+ [  0   0   0   1  70   2]
+ [  0   0   0   0   1  93]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"
+NN,10,0,9,0.9237237237237237,0.9165154264972777,5.537942375761563,10568.25692653656,1666.7103001598496,"[[ 59   0   0   0   0   0]
+ [  1  66  11   2   0   0]
+ [  0   1 140   4   0   0]
+ [  0   0  10  83   2   5]
+ [  0   1   0   1  63   8]
+ [  0   0   0   0   0  94]]","MLPClassifier(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(100, 50, 30), learning_rate='constant',
+       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)"

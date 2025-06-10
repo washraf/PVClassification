@@ -1,0 +1,7 @@
+Classifier,Count,Cycle,Split,Train Acc,Test Acc,F1 Score,Train Time (ms),clfs per ms,Confusion Matrix,Params
+NC,Full,0,0,0,0.14439655172413793,,0,0.001098547842821935,"[[  0  98   1 102  19   1]
+ [  0   4   1  20 316  42]
+ [  0   7   0  20 840  26]
+ [  0   1   0   5 609   3]
+ [  0   0   0   0 393   0]
+ [  0   0   0   0 276   0]]",
